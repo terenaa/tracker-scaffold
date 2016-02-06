@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d9cc54a0266ceee9c75bb178f6268d0f",
+    "content-hash": "fde038efea4096f6afe08980ad5502ac",
+    "packages": [
+        {
+            "name": "terenaa/sms-gateway",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/terenaa/sms-gateway.git",
+                "reference": "a53085b459baf8e263c78a75c68595bdf889f61b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/terenaa/sms-gateway/zipball/a53085b459baf8e263c78a75c68595bdf889f61b",
+                "reference": "a53085b459baf8e263c78a75c68595bdf889f61b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "terenaa\\SmsGateway\\": "src/terenaa/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dominik Marcak",
+                    "email": "dominik.marcak@gmail.com"
+                },
+                {
+                    "name": "Krzysztof Janda",
+                    "email": "k.janda@the-world.pl"
+                }
+            ],
+            "description": "Just another simple PHP SMS Gateway",
+            "keywords": [
+                "sms-gateway",
+                "terenaa"
+            ],
+            "time": "2015-12-28 10:59:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

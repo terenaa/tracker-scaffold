@@ -1,0 +1,29 @@
+; Atom feed url
+atom_url = http://domain.com
+
+; Notify by pop-up message (only Linux)
+linux_notify = true
+
+; Pop-up message icon
+linux_icon = apport
+
+; Send notification by text message (only in Poland)
+phone_notify = false
+
+; If phone_notify equals to true specify phone number to send test messages
+phone_number = 555555555
+
+; Send notification by e-mail
+email_notify = false
+
+; If email_notify is set to true specify e-mail address to send messages
+email_address = email@domain.com
+
+; E-mail address to send messages from (it does not have to exist)
+email_from = no-reply@tracker.yours
+
+; Human-readable name of the e-mail address above
+email_from_name = Your tracker
+
+; Refreshing interval
+refresh = 60
