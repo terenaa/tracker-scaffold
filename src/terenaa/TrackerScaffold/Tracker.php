@@ -7,7 +7,7 @@
  * @category Scaffold
  * @author Krzysztof Janda <terenaa@the-world.pl>
  * @license https://opensource.org/licenses/MIT MIT
- * @version 1.0
+ * @version 1.0.1
  * @link https://www.github.com/terenaa/tracker-scaffold
  */
 
@@ -37,6 +37,7 @@ abstract class Tracker
             $this->loadConfig();
         } catch (TrackerException $e) {
             echo $e->getMessage() . PHP_EOL;
+            exit();
         }
     }
 
